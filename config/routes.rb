@@ -4,5 +4,7 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :create]
   resources :favorites, only: [:index, :create]
   resources :comments, only: [:index, :create] 
+  post '/login', to: 'application#login'
+  post '/create_account', to: 'user#create'
   post '/park/business', to: 'parks#getBusiness' 
 end
