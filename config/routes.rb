@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   resources :favorites, only: [:index, :create]
   resources :comments, only: [:index, :create] 
   post '/login', to: 'application#login'
-  post '/create_account', to: 'user#create'
+  post '/create_account', to: 'users#create'
   post '/park/business', to: 'parks#getBusiness' 
 end
