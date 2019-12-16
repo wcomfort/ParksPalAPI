@@ -12,13 +12,18 @@ class ParksController < ApplicationController
         render json: park
     end
 
+    def show
+        park = Park.find(params[:id])
+        render json: park
+      end
+
     def getBusiness
         url = "https://api.yelp.com/v3/businesses/search"
         searchinfo = {
             categories: "restaurants",
             sort_by: "rating",
-            latitude: params[:lat],
-            longitude:  params[:long]
+            latitude: params[:park][:lat],
+            longitude:  params[:park][:long]
         }
         response = HTTP.auth("Bearer pYNiFx7ty_gnQM6cKSCe_uwQEzpNGPiED8oBEYrOSohCryHIzapCG8-iGx55mocoyrB01h17s62jWzED7LezAEbqgTDUlcG837cW3XVueqnVd44LmzRLSkmcFGPqXXYx").get(url, params: searchinfo)
         results = response.parse["businesses"].slice(0,10)
