@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   post '/users/:id', to: 'users#show'
   post '/create_account', to: 'users#create'
   post '/park/business', to: 'parks#getBusiness' 
+  post '/favorite', to: 'favorites#create'
 end
