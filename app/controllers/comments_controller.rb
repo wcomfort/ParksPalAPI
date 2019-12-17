@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
 
     def index
         comments= Comment.all 
-        render json: comments
+        render json: comments.to_json(to_serialized_json)
     end
 
     def create
@@ -14,6 +14,14 @@ class CommentsController < ApplicationController
 
     def commentparams
         params.require(:comment).permit(:content, :park_id, :user_id)
+    end
+    
+    def to_serialized_json
+        {
+          :include => {:user => {
+            :only => [:username]
+          }},
+        }
     end
 
 end

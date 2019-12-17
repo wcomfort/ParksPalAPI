@@ -31,6 +31,6 @@ class UsersController < ApplicationController
             :except => [:updated_at]
           }},
         }
-      end
+    end
 
 end
