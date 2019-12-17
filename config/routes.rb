@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   post '/create_account', to: 'users#create'
   post '/park/business', to: 'parks#getBusiness' 
   post '/favorites', to: 'favorites#create'
+  delete '/favorites', to: 'favorites#destroy'
 end

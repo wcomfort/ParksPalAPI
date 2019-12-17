@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
     def show
         user = User.find(params[:id])
-        render json: user
+        render json: user.to_json(to_serialized_json)
       end
 
     def create
@@ -23,5 +23,14 @@ class UsersController < ApplicationController
     def userparams
         params.require(:user).permit(:name, :username, :password)
     end
+
+
+    def to_serialized_json
+        {
+          :include => {:favorites => {
+            :except => [:updated_at]
+          }},
+        }
+      end
 
 end

@@ -10,6 +10,14 @@ class FavoritesController < ApplicationController
         render json: favorite
     end
 
+    def destroy
+        favorite = Favorite.all.select do |fav| 
+            fav.park_id == (params[:park_id]) && fav.user_id == (params[:user_id])
+        end
+        favorite[0].destroy
+        render json: favorite
+    end
+
     private
 
     def favparams
