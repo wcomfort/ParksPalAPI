@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   post '/park/business', to: 'parks#getBusiness' 
   post '/favorites', to: 'favorites#create'
   delete '/favorites', to: 'favorites#destroy'
+  post '/comments', to: 'comments#create'
 end

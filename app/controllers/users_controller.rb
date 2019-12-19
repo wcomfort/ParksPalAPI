@@ -11,11 +11,7 @@ class UsersController < ApplicationController
 
     def create
         user = User.create(userparams)
-        if user.valid?
         render json: user
-        else 
-        render json: user.errors
-        end 
     end
 
     private
