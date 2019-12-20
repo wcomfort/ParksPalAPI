@@ -7,7 +7,7 @@ class CommentsController < ApplicationController
 
     def create
         comment = Comment.create(commentparams)
-        render json: comment
+        render json: comment.to_json(to_serialized_json)
     end
 
     private
