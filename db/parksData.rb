@@ -1757,7 +1757,7 @@
         "directionsUrl": "http://home.nps.gov/hale/planyourvisit/directions.htm",
         "url": "https://www.nps.gov/hale/index.htm",
         "weatherInfo": "On any given day, the temperatures in the park can range from a high of 80°F (27°C) in Kīpahulu to a low of 30°F (-1°C) at the summit. In either area clouds and rain can quickly replace warm sunshine.\nWeather in the high-elevation summit and wilderness areas of the park is highly unpredictable and changes often. Cool temperatures, intense solar radiation, and rapidly moving clouds are characteristic. On average, the temperature drops about 3°F for every 1,000 foot rise in elevation.",
-        "name": "Haleakal&#257;",
+        "name": "Haleakala;",
         "latLong": "lat:20.70693015, long:-156.1591775",
         "description": "This special place vibrates with stories of ancient and modern Hawaiian culture and protects the bond between the land and its people. The park also cares for endangered species, some of which exist nowhere else. Come visit this special place - renew your spirit amid stark volcanic landscapes and sub-tropical rain forest with an unforgettable hike through the backcountry.",
         "images": [
@@ -1797,7 +1797,7 @@
         "designation": "National Park",
         "parkCode": "hale",
         "id": "4930BAEB-A3BF-4825-9796-DCD0FD1C3BD5",
-        "fullName": "Haleakal&#257; National Park"
+        "fullName": "Haleakalā National Park"
       },
       {
         "states": "HI",
