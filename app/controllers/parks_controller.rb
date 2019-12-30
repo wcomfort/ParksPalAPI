@@ -20,7 +20,7 @@ class ParksController < ApplicationController
     def getBusiness
         url = "https://api.yelp.com/v3/businesses/search"
         searchinfo = {
-            categories: "restaurants",
+            categories: params[:park][:business],
             sort_by: "rating",
             latitude: params[:park][:lat],
             longitude:  params[:park][:long]
