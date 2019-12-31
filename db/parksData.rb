@@ -3680,6 +3680,62 @@
         "fullName": "Voyageurs National Park"
       },
       {
+      "states": "NM",
+      "directionsInfo": "White Sands National Monument is located off of US Highway 70 between the cities of Las Cruces and Alamogordo. The monument is about 15 miles west of Alamogordo and 52 miles east of Las Cruces.",
+      "directionsUrl": "http://www.nps.gov/whsa/planyourvisit/directions.htm",
+      "url": "https://www.nps.gov/whsa/index.htm",
+      "weatherInfo": "Temperatures at White Sands vary greatly throughout the year. Summer time temperatures can be very hot. Winters are mild with cool evenings. Spring time is the windy season. Fall is very enjoyable with mild daytime and night time temperatures.",
+      "name": "White Sands",
+      "latLong": "lat:32.77907858, long:-106.3333461",
+      "description": "Rising from the heart of the Tularosa Basin is one of the world's great natural wonders - the glistening white sands of New Mexico. Great wave-like dunes of gypsum sand have engulfed 275 square miles of desert, creating the world's largest gypsum dunefield. White Sands National Park preserves a major portion of this unique dunefield, along with the plants and animals that live here.",
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "altText": "Aerial of white sand dunes.",
+          "title": "Aerial of Dunefield",
+          "id": "3142",
+          "caption": "The dunes at White Sands cover 275 square miles of the Tularosa Basin.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C7FE53E-1DD8-B71B-0BE4AEBECAB602AD.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "altText": "Close up view of ripples on a dune.",
+          "title": "Ripples",
+          "id": "3143",
+          "caption": "The wind shapes and moves the dunes as a whole but gives each individual dune the texture of ripples.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C7FE691-1DD8-B71B-0B21F94DBD31A965.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "altText": "Dunes colored orange by sunset.",
+          "title": "Sunset Colored Dunes",
+          "id": "3432",
+          "caption": "Sunsets are one of the most popular times to visit White Sands. Visitors can experience sunset every day of the year.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C818EED-1DD8-B71B-0B0BD2473ABE491A.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "altText": "Cottonwood trees with orange leaves.",
+          "title": "Fall Colors",
+          "id": "3433",
+          "caption": "Fall is a wonderful time to visit as most of our plants with leaves change beautiful colors.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C819076-1DD8-B71B-0BBCE3AA4AF4D2CD.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "altText": "Grey shadows on dunes.",
+          "title": "Shaded Dunes",
+          "id": "3434",
+          "caption": "As the sun changes its angle through the sky it allows shadow to roll across the dunes.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C8191DC-1DD8-B71B-0BCE7EF56096C614.jpg"
+        }
+      ],
+      "designation": "National Park",
+      "parkCode": "whsa",
+      "id": "32D2B528-193E-43FA-BF38-32493D9E317D",
+      "fullName": "White Sands National Park"
+    },
+      {
         "states": "SD",
         "directionsInfo": "Wind Cave National Park is located in South Dakota about 11 miles north of Hot Springs, or about 22 miles south of Custer, on US Highway 385. The park Visitor Center, where all cave tours begin, is approximately 1/2 mile west of the highway.",
         "directionsUrl": "http://www.nps.gov/wica/planyourvisit/directions.htm",
