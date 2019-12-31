@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::API
     def login
-        user = User.find_by(username: params[:username], password: params[:password])
+        user = User.find_by(username: params[:username])
+        user.authenticate(params[:password])
         render json: user.to_json(to_serialized_json)
     end
 

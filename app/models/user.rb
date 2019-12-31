@@ -6,6 +6,8 @@ class User < ApplicationRecord
     has_many :comments
     has_many :parks, through: :comments
 
+    has_secure_password
+
     validates :name, presence: true
     validates :username, presence: true
     validates :username, uniqueness: true
